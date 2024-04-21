@@ -147,6 +147,7 @@ void post(float distancia, bool estado_rele_operacao, bool estado_rele_partida) 
   doc["rele_acionamento"] = estado_rele_partida;
   doc["corrente"] = corrente;
 
+
   String json;
   serializeJson(doc, json);
 
